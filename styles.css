@@ -151,6 +151,7 @@ h1 {
       display: flex;
       flex-direction: row;
       background-image: url("./images/homepage/ready-bg-desktop.jpg");
+      min-height: 240px;
       color: white;
 
   }
