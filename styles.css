@@ -119,14 +119,18 @@ h1 {
       padding-bottom: 2rem;
   }
 
+  .img-bottom {
+      margin-bottom: -75px;
+  }
+
 .bottom-line {
-    padding-bottom: 400px;
-    margin-right: ;
+    padding-bottom: 320px;
+    margin-right:;
 }
   .highlights {
       background: black;
       color: white;
-      max-height: 761px;
+      
   }
 
   .highlights-text {
@@ -145,22 +149,32 @@ h1 {
       display: flex;
       margin-right: 100px;
       align-items: center;
+      padding-left: 125px;
   }
 
   .highlights-image {
       padding-right: 30px;
       padding-bottom: 24px;
+      
   }
 
   .reservation-content {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       background-image: url("./images/homepage/ready-bg-desktop.jpg");
       min-height: 240px;
       color: white;
 
   }
 
+  .booking-text {
+      padding: 92px 227px 92px 165px;
+  }
+
+  /*.btn {
+  margin: 88px 165px 88px 227px;
+  }*/
   /*.btn {
       border: solid white 1px;
   }*/
@@ -171,16 +185,15 @@ h1 {
   }
 
   .footer-text {
-    display: flex;
-    flex-direction: row;
-      
-      
-      
+    display: flex;      
   }
 
   .contact {
-      width: 20%;
-    
+      flex: 50%;
+  }
+    .hours {
+        flex: 50%;
+    }
     
       
       
