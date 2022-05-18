@@ -125,7 +125,7 @@ h1 {
 
 .bottom-line {
     padding-bottom: 320px;
-    margin-right:;
+    padding-right: -400px;
 }
   .highlights {
       background: black;
@@ -169,7 +169,7 @@ h1 {
   }
 
   .booking-text {
-      padding: 92px 227px 92px 165px;
+    padding: 92px 227px 92px 165px;
   }
 
   /*.btn {
@@ -180,8 +180,8 @@ h1 {
   }*/
 
   .footer-content {
-      background-color: black;
-      color: white;
+    background-color: black;
+    color: white;
   }
 
   .footer-text {
@@ -189,13 +189,13 @@ h1 {
   }
 
   .contact {
-      flex: 50%;
+    flex: 50%;
   }
     .hours {
-        flex: 50%;
+    flex: 50%;
     }
     
       
       
       
-  }
+  
