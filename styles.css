@@ -157,6 +157,14 @@ h1 {
       padding-bottom: 24px;
       
   }
+  .events-info {
+     background-image: url("./images/patterns/pattern-curve-top-right.svg");
+     repeat: no-repeat;
+  }
+
+  .h3-text {
+      text-transform: uppercase;
+  }
 
   .reservation-content {
       display: flex;
