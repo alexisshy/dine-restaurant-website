@@ -172,9 +172,9 @@ h1 {
     padding: 92px 227px 92px 165px;
   }
 
-  /*.btn {
-  margin: 88px 165px 88px 227px;
-  }*/
+  #reservation-btn {
+    margin: 88px 165px 88px 227px;
+  }
   /*.btn {
       border: solid white 1px;
   }*/
@@ -183,13 +183,21 @@ h1 {
     background-color: black;
     color: white;
   }
+  .footer-logo {
+    
+
+  }
 
   .footer-text {
-    display: flex;      
+    display: flex;   
+    padding: 78px 165px;
+    text-transform: uppercase;
+    letter-spacing: 2px;   
   }
 
   .contact {
     flex: 50%;
+    margin-left: 165px;
   }
     .hours {
     flex: 50%;
