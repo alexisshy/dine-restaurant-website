@@ -94,21 +94,18 @@
             <div id="social-image" class="events-image"></div>
         </div>   
         
-        <div class="events-info">
+        <section class="events">
           <img src="./images/patterns/pattern-lines.svg"/>
-          <div class="h3-text">
-            <button id="button-family" class="tablinks" onmouseover="family">Family Gathering</button>
-            <button id="button-special" class="tablinks" onmouseover="special">Special Events</button>
-            <button id="button-social" class="tablinks" onmouseover="social">Social Events</button>
-          </div>
-          <div class="events-text">
-            <div id="family-text" class="tabcontent">
-              <img src="./images/homepage/family-gathering-desktop.jpg"/>
-              <h2 class="events-title">Family Gathering</h2>
-              <p class="">We love catering for entire families. So please bring everyone along for a special meal with your 
+          
+          <div class="events-info">
+
+            
+              <img id="events-image" src="./images/homepage/family-gathering-desktop.jpg"/>
+              <h2 id="events-title">Family Gathering</h2>
+              <p id="events-text">We love catering for entire families. So please bring everyone along for a special meal with your 
                 loved ones. We’ll provide a memorable experience for all.</p>
-            </div>
-            <div id="special-text" class="tabcontent">
+            
+            <!--<div id="special-text" class="tabcontent">
               <img src="./images/homepage/special-events-desktop.jpg"/>
               <h2 class="events-title">Special Events</h2>
               <p class="">Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. 
@@ -119,7 +116,12 @@
               <h2 class="events-title">Social Events</h2>
               <p>Are you looking to have a larger social event? No problem! We’re more than happy to cater for big 
                 parties. We’ll work with you to make your event a hit with everyone.</p>
-            </div>
+            </div>-->
+          </div>
+          <div class="buttons">
+            <button id="button-family" class="tablinks" onmouseover="family">Family Gathering</button>
+            <button id="button-special" class="tablinks" onmouseover="special">Special Events</button>
+            <button id="button-social" class="tablinks" onmouseover="social">Social Events</button>
           </div>
 
           <div>
@@ -152,6 +154,6 @@
         </div>
       </div>
     </footer>  
-    <script src="scripts/main.js"></script> 
+    <script src="./main.js"></script> 
   </body>
 </html>

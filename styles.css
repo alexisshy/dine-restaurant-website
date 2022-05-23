@@ -157,12 +157,23 @@ h1 {
       padding-bottom: 24px;
       
   }
+
+  .events {
+    padding: 5rem 1.625rem;
+  }
   .events-info {
      background-image: url("./images/patterns/pattern-curve-top-right.svg");
      background-repeat: no-repeat;
      background-position: top 0 left 0, bottom 15.625rem right 0;
-      margin: 0 auto;
+     margin: 0 auto;
   }
+
+  /*.events img {
+    min-width: 15.4375rem;
+    min-height: 25rem;
+    display: none;
+    margin-bottom: 3rem;
+  }*/
 
   .h3-text button {
       text-transform: uppercase;
@@ -177,7 +188,15 @@ h1 {
       color: black;
   }
 
+  .tab-content {
+      display: flex;
+      
+}
   
+
+  .tab-content img {
+      
+  }
 
   .reservation-content {
       display: flex;
