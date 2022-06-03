@@ -12,6 +12,8 @@ body {
 
 h1 {
     font-weight: 300;
+    font-size: 2rem;
+    
 }
 
 .hero-title {
@@ -19,6 +21,7 @@ h1 {
     padding-left: 165px;
     color: white;
     font-size: 64px;
+    letter-spacing: -0.8px;
 }
 
 .hero-text {
@@ -27,6 +30,7 @@ h1 {
     margin: 0 auto;
     color: white;
     font-size: 18px;
+    letter-spacing: 0.225px;
 }
 
 .hero_content {
@@ -40,47 +44,46 @@ h1 {
     margin: 0 auto;
     background-position: center top;
     padding-right: 752px;
-    padding-left: ;
+    
     padding-bottom: 9.5rem;
   }
   
   .hero-logo {
-      padding-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 
   .hero-logo img {
-      height: 2rem;
-      width: auto;
+    height: 2rem;
+    width: auto;
   }
 
   .btn {
-      padding: 1.5rem 3.4375rem;
-      text-decoration: none;
-      display: inline-block;
-      color: white;
-      border: 1px solid white;
+    padding: 1.5rem 3.4375rem;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
       
   }
 
-  .btn-white {
-    
-    
+  .btn:hover {
+    background-color: white;
+    color: gray;
+
   }
 
-  .info {
-      
-  }
+  
 
   .info-top {
-      display: flex;
-      flex-direction: row;
-      padding-right: 165px;
-      padding-top: 73px;
-      background-image: url("./images/patterns/pattern-curve-top-right.svg");
-      background-repeat: no-repeat;
-      background-position: top 15.625rem left 0, bottom 0 right 0;
-      margin: 0 auto;
-      text-align: ;
+    display: flex;
+    flex-direction: row;
+    padding-right: 165px;
+    padding-top: 73px;
+    background-image: url("./images/patterns/pattern-curve-top-right.svg");
+    background-repeat: no-repeat;
+    background-position: top 15.625rem left 0, bottom 0 right 0;
+    margin: 0 auto;
+      
       
   }
 
@@ -94,7 +97,7 @@ h1 {
 }
 
   .info-title {
-      padding-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 
   .info-text {
@@ -104,23 +107,23 @@ h1 {
     
   }
   .info-bottom {
-      display: flex;
-      flex-direction: row;
-      padding-left: 167px;
-      background-image: url("./images/patterns/pattern-curve-top-left.svg");
-      background-repeat: no-repeat;
-      background-position: top 20rem left 45rem, bottom 0 right 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 167px;
+    background-image: url("./images/patterns/pattern-curve-top-left.svg");
+    background-repeat: no-repeat;
+    background-position: top 20rem left 45rem, bottom 0 right 0;
   }
 
  
 
   .info-line {
-      padding-top: 3.5rem;
-      padding-bottom: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
   }
 
   .img-bottom {
-      margin-bottom: -75px;
+    margin-bottom: -75px;
   }
 
 .bottom-line {
@@ -128,8 +131,8 @@ h1 {
     padding-right: -400px;
 }
   .highlights {
-      background: black;
-      color: white;
+    background: black;
+    color: white;
       
   }
 
@@ -139,22 +142,22 @@ h1 {
     
   }
   .featured-meals {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding: 200px 165px 120px 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 165px 120px 165px;
   }
 
   .featured-card {
-      display: flex;
-      margin-right: 100px;
-      align-items: center;
-      padding-left: 125px;
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    padding-left: 125px;
   }
 
   .highlights-image {
-      padding-right: 30px;
-      padding-bottom: 24px;
+    padding-right: 30px;
+    padding-bottom: 24px;
       
   }
 
@@ -162,10 +165,10 @@ h1 {
     padding: 5rem 1.625rem;
   }
   .events-info {
-     background-image: url("./images/patterns/pattern-curve-top-right.svg");
-     background-repeat: no-repeat;
-     background-position: top 0 left 0, bottom 15.625rem right 0;
-     margin: 0 auto;
+    background-image: url("./images/patterns/pattern-curve-top-right.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, bottom 15.625rem right 0;
+    margin: 0 auto;
   }
 
   /*.events img {
@@ -176,35 +179,32 @@ h1 {
   }*/
 
   .h3-text button {
-      text-transform: uppercase;
-      color: rgba(76, 76, 76, 1);
-      display: flex;
-      flex-direction: column;
-      border-style: none;
+    text-transform: uppercase;
+    color: rgba(76, 76, 76, 1);
+    display: flex;
+    flex-direction: column;
+    border-style: none;
 
   }
 
   .h3-text button:hover {
-      color: black;
+    color: black;
   }
 
   .tab-content {
-      display: flex;
+    display: flex;
       
 }
   
 
-  .tab-content img {
-      
-  }
 
   .reservation-content {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      background-image: url("./images/homepage/ready-bg-desktop.jpg");
-      min-height: 240px;
-      color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("./images/homepage/ready-bg-desktop.jpg");
+    min-height: 240px;
+    color: white;
 
   }
 
@@ -223,10 +223,7 @@ h1 {
     background-color: black;
     color: white;
   }
-  .footer-logo {
-    
-
-  }
+ 
 
   .footer-text {
     display: flex;   
@@ -241,7 +238,7 @@ h1 {
   }
     .hours {
     flex: 50%;
-    }
+}
     
       
       
