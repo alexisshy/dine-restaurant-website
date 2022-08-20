@@ -16,7 +16,7 @@ h1 {
     
 }
 
-.hero-title {
+.hero-title, .booking-title {
     padding-bottom: 2.25rem;
     padding-left: 165px;
     color: white;
@@ -240,7 +240,11 @@ h1 {
     flex: 50%;
 }
     
-      
+  /*booking page*/
+  
+  .booking-content {
+    background-image:url("./images/booking/hero-bg-desktop.jpg");
+  }
       
       
   

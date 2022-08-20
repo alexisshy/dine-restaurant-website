@@ -1,38 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=League+Spartan&family=Lexend+Deca&family=Montserrat&family=Oswald:wght@200;700&family=Raleway:wght@100&family=Roboto&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Dine Website Challenge</title>
 </head>
+
 <body>
+  <main>
+    <section class="booking">
+      <div class="booking-content">
+        <div class="booking-logo"><img src="./images/logo.svg"></div>
+          <h1 class="booking-title">Reservations</h1>
+          <p class="booking-text">We can't wait to host you. If you have any special requirements please feel free to call on the phone number below. We'll be happy to accomodate you.</p>
+      </div>
+      </section>
+        <section class="reservation-section">
+          <input>
+          <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="email">
+            <p>Pick a date</p>
+            <input type="date">
+            <p>Pick a time</p>
+            <input type="time">
+            <select name="select" id="#">
+              <option value="1">1 person</option>
+              <option value="2">2 people</option>
+              <option value="3">3 people</option>
+              <option value="4">4 people</option>
+              <option value="5">5 people</option>
+              <option value="5+">5+ people</option>
+            </select>
+            <button>Make Reservation</button>
+            </form>
+        </section>
+        <section>
+          <footer>
+            <div class="footer-logo">
 
-  Reservations
+            </div>
+            <div class="contact-info">
+              <p>Marthwaite, Sedbergh</p>
+              <p>Cumbria</p>
+              <p>+00 44 123 4567</p>
+            </div>
+            <div class="hours">
+              <p>Open Times</p>
+              <p>Mon - Fri 9:00am - 10:00pm</p>
+              <p>Sat - Sun 9:00am - 11:30pm</p>
+            </div>
 
-  We can’t wait to host you. If you have any special requirements please feel free to 
-  call on the phone number below. We’ll be happy to accommodate you.
-
-
-
-  Name
-  Email
-  Pick a date
-  Pick a time
-
-  Make Reservation
-
-
-
-  Marthwaite, Sedbergh
-  Cumbria
-  +00 44 123 4567
-
-  Open Times
-  Mon - Fri: 09:00 AM - 10:00 PM
-  Sat - Sun: 09:00 AM - 11:30 PM
-
+          </footer>
+        </section>
+    </main>
 </body>
-</html>
