@@ -219,7 +219,7 @@ h1 {
       border: solid white 1px;
   }*/
 
-  .footer-content {
+  .footer-content, .contact-info {
     background-color: black;
     color: white;
   }
@@ -244,7 +244,23 @@ h1 {
   
   .booking-content {
     background-image:url("./images/booking/hero-bg-desktop.jpg");
+    background-repeat: no-repeat;
   }
       
-      
+  .booking-text {
+    max-width:750px;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.225px;
+}
+
+section {
+  
+}
+
+.reservation-section {
+  padding-left: 100px;
+}
+
   
