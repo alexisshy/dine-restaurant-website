@@ -243,13 +243,18 @@ h1 {
   /*booking page*/
   
   .booking-content {
+    
+      max-width: 1440px;
+      display: flex;
+      flex-direction: column;
+      
     background-image:url("./images/booking/hero-bg-desktop.jpg");
     background-repeat: no-repeat;
   }
       
   .booking-text {
-    max-width:750px;
-    margin: 0 auto;
+    max-width: 750px;
+    margin:;
     color: white;
     font-size: 18px;
     letter-spacing: 0.225px;
@@ -260,7 +265,35 @@ section {
 }
 
 .reservation-section {
-  padding-left: 100px;
+  margin-left: 700px;
+  z-index: -1;
 }
 
+ form {
+  border-style: none;
+ } 
+
+ .input-size {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-left: 20px;
+  width: 520px;
   
+ }
+
+#date-format {
+  display: flex;
+  justify-content:space-between;
+}
+
+#pick-date {
+  color: gray;
+}
+
+#make-reservation {
+  margin-top: 60px;
+  text-transform: uppercase;
+  background: black;
+  color: white;
+}

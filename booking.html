@@ -23,23 +23,31 @@
       </div>
       </section>
         <section class="reservation-section">
-          <input>
           <form>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="email">
-            <p>Pick a date</p>
-            <input type="date">
-            <p>Pick a time</p>
-            <input type="time">
-            <select name="select" id="#">
-              <option value="1">1 person</option>
-              <option value="2">2 people</option>
-              <option value="3">3 people</option>
-              <option value="4">4 people</option>
-              <option value="5">5 people</option>
-              <option value="5+">5+ people</option>
-            </select>
-            <button>Make Reservation</button>
+            <input type="text" placeholder="Name" class="input-size" id="name" required>
+            <br>
+            <input type="email" placeholder="Email" class="input-size" id="email" required>
+            <br>
+            <div class="input-size" id="date-format">
+              <label for="pick-date">Pick a date</label>
+            <input type="date" id="pick-date" required>
+          </div>
+          <div class="input-size" id="date-format">
+            <label>Pick a time</label>
+            <input type="time" id="pick-time" required>
+            </div>
+            <div class="input-sizing" id="date-format">
+              <select name="select" id="#">
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4">4 people</option>
+                <option value="5">5 people</option>
+                <option value="5+">5+ people</option>
+              </select>
+            </div>
+            <button type="submit" id="make-reservation" class="input-size">Make Reservation</button>
+            
             </form>
         </section>
         <section>
