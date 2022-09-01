@@ -72,6 +72,7 @@ h1 {
 
   }
 
+
   
 
   .info-top {
@@ -165,10 +166,22 @@ h1 {
     padding: 5rem 1.625rem;
   }
   .events-info {
+    display: flex;
     background-image: url("./images/patterns/pattern-curve-top-right.svg");
     background-repeat: no-repeat;
     background-position: top 0 left 0, bottom 15.625rem right 0;
     margin: 0 auto;
+  }
+
+  .events-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #button-family:hover, #button-special:hover, #button-social:hover {
+    color: gray;
+    cursor: pointer;
   }
 
   /*.events img {
@@ -280,6 +293,11 @@ section {
   padding-left: 20px;
   width: 520px;
   
+  
+ }
+
+ .reservation-section {
+  z-index: 6;
  }
 
 #date-format {
